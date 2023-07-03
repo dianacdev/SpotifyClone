@@ -1,8 +1,22 @@
 'use client';
 
+import useAuthModal from "@/hooks/useAuthModal";
+import useUploadModal from "@/hooks/useUploadModel";
+
+import { useUser } from "@/hooks/useUser";
+
 const Library = () => {
+    const authModal = useAuthModal();
+    const uploadModal = useUploadModal();
+    const {user} = useUser();
     const onClick = () =>{
-        //handle upload later
+        if(!user){
+            return authModal.onOpen();
+        }
+
+        //TODO: Check for Subscription
+        
+        return uploadModal.onOpen();
     }
     return ( 
         <div className="flex flex-col">
