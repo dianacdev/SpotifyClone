@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 import useAuthModal from '@/hooks/useAuthModal';
 
 import Modal from "./Modal";
-import { access } from 'fs';
+
 
 
 const AuthModal = () => {
