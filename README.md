@@ -1,3 +1,21 @@
+# Spotify Clone
+
+This is a Spotify Clone, it was created using Next.js, Supabase, toast, tailwind, typescript, zustand, and stripe.
+The Frontend is using React Components, and the navigation of the pages is done with Next's new navigation feature, using the routes created in the folders/file structure.
+The Database is postgres on supabase, with next/server working as middleware.
+Stripe is used as for the subscriptions in the application.
+Toast is used for notifying the users of any errors that may occur and successes.
+I use Spotify on a daily basis and tried to make a simple clone that mimics the ui and basic functions of Spotify.
+
+## Main Features
+
+- Working Player (Pause, Play, Skip, Previous and Mute functions)
+- Upload Songs with Album Art
+- Liked Songs Playlist
+- Search by Song Title
+
+<br></br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
